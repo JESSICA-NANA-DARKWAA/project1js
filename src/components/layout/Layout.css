@@ -1,0 +1,42 @@
+.layout-container {
+  background-color: red;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.image-box {
+  width: 100%;
+  background-color: #0267ff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.image-box img {
+  width: 70%;
+}
+.children-box {
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.right-side {
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.step-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
