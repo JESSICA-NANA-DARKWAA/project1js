@@ -8,13 +8,16 @@ const Layout = ({ children, image, page, step }) => {
         <img src={image} alt="image-here" />
       </div>
       <div className="children-box">
-        <div className="step-container">
-          <span>Back</span>
-          <div>
-            <b>Step {step}</b> of 4
+        {page !== "login" && (
+          <div className="step-container">
+            <span>Back</span>
+            <div>
+              <b>Step {step}</b> of 4
+            </div>
+            <span>Exit</span>
           </div>
-          <span>Exit</span>
-        </div>
+        )}
+
         <div className="child-container">{children}</div>
       </div>
     </div>

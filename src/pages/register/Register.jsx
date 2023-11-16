@@ -17,7 +17,7 @@ const Register = () => {
   const handleForm = (e) => {
     e.preventDefault(); //prevent page from refreshing
     localStorage.setItem("user", JSON.stringify(form));
-    console.log(form);
+    
     navigate("/login");
   };
   return (

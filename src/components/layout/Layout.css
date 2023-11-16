@@ -21,18 +21,15 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  height: 100%;
 }
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+.child-container {
+  height: 80%;
 }
-.right-side {
-  width: 100%;
-}
-img {
-  width: 100%;
-  height: auto;
+
+.image-box img {
+  width: 70%;
+  /* height: auto; */
 }
 
 .step-container {

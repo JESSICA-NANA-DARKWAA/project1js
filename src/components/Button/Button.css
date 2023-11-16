@@ -16,3 +16,35 @@
   letter-spacing: 0.08px;
   cursor: pointer;
 }
+.button1 {
+  width: 172px;
+  height: 168px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  opacity: 0.4;
+  background: #df9be0;
+}
+.button2 {
+  width: 172px;
+  height: 168px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  opacity: 0.4;
+  background: #cfc;
+}
+.button3 {
+  width: 172px;
+  height: 168px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  opacity: 0.4;
+  background: #ffc299;
+}
+.button4 {
+  width: 172px;
+  height: 168px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  opacity: 0.2;
+  background: #2575d1;
+}
