@@ -1,30 +1,20 @@
 import React from "react";
-import "./ButtonCTA.css";
 
-const Button = (props) => {
-  const {
-    label,
-    Showlabel = true,
-    disabled = false,
-    ButtonType = secondary,
-    ButtonState = Default,
-    ButtonSize = small,
-    Icon_Right = true,
-    Icon_left = false,
-  } = props;
+const ButtonWithButton = () => {
+  const handleInnerButtonClick = () => {
+    console.log("Inner button clicked!");
+  };
+
+  const handleOuterButtonClick = () => {
+    console.log("Outer button clicked!");
+  };
 
   return (
-    <button
-      Showlabel={true}
-      ButtonType={secondary}
-      disabled={disabled}
-      ButtonState={Default}
-      label={Added}
-      ButtonSize={small}
-      Icon_Right={true}
-      Icon_left={false}
-    ></button>
+    <div>
+      <button onClick={handleOuterButtonClick}>Outer Button</button>
+      <button onClick={handleInnerButtonClick}>Inner Button</button>
+    </div>
   );
 };
 
-export default Button;
+export default ButtonWithButton;

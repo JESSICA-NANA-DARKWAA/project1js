@@ -3,8 +3,16 @@ import Layout from "../../components/layout/Layout";
 import Image from "../../assets/images/upload3.png";
 import Button from "../../components/Button/Button";
 import "./interest1.css";
+import { useNavigate } from "react-router-dom";
 
 const interest1 = () => {
+  const navigate = useNavigate();
+  const handleForm = (e) => {
+    e.preventDefault(); //prevent page from refreshing
+    localStorage.setItem("user", JSON.stringify(form));
+
+    navigate("/interest2");
+  };
   return (
     <Layout image={Image}>
       <br></br>
