@@ -1,8 +1,10 @@
 import React from "react";
 import Layout from "../../components/layout/Layout";
 import Image from "../../assets/images/upload4.png";
-import Button from "../../components/Button/Button";
+import Boxes from "../../assets/images/Group 333.png";
+
 import "./interest2.css";
+
 const interest2 = () => {
   return (
     <Layout image={Image}>
@@ -14,12 +16,8 @@ const interest2 = () => {
       <br />
       Alright, let's pick something we're interested in and get started!
       <br />
-      <Button type="submit" label="Gaming" className="button1" />
-      <Button type="submit" label="fashion" className="button2" />
       <br />
-      <Button type="submit" label="Music" className="button3" />
-      <Button type="submit" label="Reading" className="button4" />
-      <Button type="submit" label="Continue" className="button" />
+      <div /> <img src={Boxes} alt="" />
     </Layout>
   );
 };

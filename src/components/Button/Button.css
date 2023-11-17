@@ -17,34 +17,102 @@
   cursor: pointer;
 }
 .button1 {
-  width: 172px;
-  height: 168px;
+  width: 160px;
+  height: 160px;
   flex-shrink: 0;
-  border-radius: 8px;
-  opacity: 0.4;
+  border-radius: 20px;
   background: #df9be0;
 }
 .button2 {
-  width: 172px;
-  height: 168px;
+  width: 160px;
+  height: 160px;
   flex-shrink: 0;
-  border-radius: 8px;
-  opacity: 0.4;
+  border-radius: 20px;
+
   background: #cfc;
 }
 .button3 {
-  width: 172px;
-  height: 168px;
+  width: 160px;
+  height: 160px;
   flex-shrink: 0;
-  border-radius: 8px;
-  opacity: 0.4;
+  border-radius: 20px;
+
   background: #ffc299;
 }
 .button4 {
-  width: 172px;
-  height: 168px;
+  width: 160px;
+  height: 160px;
   flex-shrink: 0;
-  border-radius: 8px;
-  opacity: 0.2;
+  border-radius: 20px;
+
   background: #2575d1;
+}
+.button5 {
+  display: flex;
+  padding: 6px 0px;
+  width: 232px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 100px;
+  background: #0267ff;
+  margin-top: 2rem;
+}
+.button6 {
+  display: flex;
+  padding: 6px 0px;
+  width: 232px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 100px;
+  background: white;
+  margin-top: 1rem;
+  border: 1px solid var(--gray-700, #b3b3b3);
+}
+.button7 {
+  display: flex;
+  padding: 6px 0px;
+  width: 232px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 100px;
+  background: white;
+  margin-top: 1rem;
+  border: 1px solid var(--gray-700, #b3b3b3);
+}
+.button8 {
+  display: flex;
+  padding: 6px 0px;
+  width: 232px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 100px;
+  background: white;
+  margin-top: 1rem;
+  border: 1px solid var(--gray-700, #b3b3b3);
+}
+.button9 {
+  display: flex;
+  padding: 6px 0px;
+  width: 232px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 100px;
+  background: white;
+  margin-top: 1rem;
+  border: 1px solid var(--gray-700, #b3b3b3);
 }
