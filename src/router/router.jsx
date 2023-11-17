@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Register from "../pages/register/Register";
 import Login from "../pages/login/Login";
-import Upload from "../pages/upload/upload";
+import Upload from "../pages/Upload/Upload";
 import Addphoto from "../pages/Upload/Addphoto";
 import Interest1 from "../pages/interest/interest1";
 import Interest2 from "../pages/interest/interest2";
